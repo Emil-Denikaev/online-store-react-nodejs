@@ -14,7 +14,7 @@ class UserController {
     if (!id) {
       return next(ApiError.badRequst('Не задан id'))
     }
-    res.json(id)
+    res.json(id);
   }
 }
 
